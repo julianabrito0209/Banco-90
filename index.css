@@ -1,0 +1,304 @@
+@font-face {
+    font-family: LigadaJustiça ;
+    src: url(Font/justice_league_2/Justice\ League.ttf);
+}
+
+@font-face {
+    font-family: Reileao;
+    src: url(Font/king_lion/King\ Lion.ttf);
+}
+@keyframes MudaTudo {
+    0%{
+        margin-right: 100px;
+    }
+   
+    40%{
+        margin-right: 0px;
+        
+    }
+    60%{
+        margin-left: 100px;
+        
+        
+            }
+    80%{
+        margin-left: 0px;
+    }
+    100%{
+        
+    }
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#page{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: whitesmoke;
+}
+#menu{
+    width: 100%;
+    height: 90px;
+    background-color: #ba2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    
+#menu a{
+    color: white;
+}
+#menuesquerda{
+    justify-content: left;
+    display: flex;
+    gap: 25px;  
+    align-items: center;
+    color: azure;
+}
+
+
+#menudireita{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 30px;
+   
+       
+}
+#botaovermelho{
+    width: 120px;
+    height: 65px;
+    background-color: #ba2d2d;
+    color: white;
+    border-color: white;
+    border-radius: 8%;
+  
+}
+
+#bannerprincipal{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    
+}
+#fotobanner{
+    background-image: url(anexos/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 450px; 
+    display: flex;
+    align-items: center;
+    
+  }
+
+#slogan{
+    width: 450px;
+    height: 130px;
+    background-color: #f2871b5d;
+    text-align: justify;
+    padding: 20px;
+    line-height: 15pt;
+          
+}
+
+#slogan p{
+    margin: 20px 5px;
+    font-size: 10pt;
+}
+#botaopreto{
+    width: 170px;
+    height: 40px;
+    background-color: #302727;
+    color: white;
+    border-color: #f2511b;
+    border-radius: 3%;
+    font-size: 10pt;
+    
+}
+#colors{
+    background-color: #302727;
+    background-color: #f2511b;
+    background-color: #f2861b;
+    background-color: #c7c730;
+}
+
+
+#subtitulo{
+    width: 100%;
+    text-align: center;
+}
+#icones{
+    width: 1100px;
+    height: 300px;
+    display: flex;
+    margin: 35px 0px;
+    margin-left: 45px;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-around;
+} 
+.icones{
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.icones:hover{
+    width: 40%;
+    height: 103%;
+}
+.IMAGEM{
+    width: 100px;
+
+}
+#partemarrom{
+    width: 100%;
+    height: 280px;
+    background-color: #302727;
+    display: flex;
+    padding: 30px 0px 20px 0px ;
+    justify-content: space-around;
+     margin: 20PX 0 30PX 0PX; 
+}
+#texto{
+    width: 50%;
+    margin: 30px;
+    color: white;
+}
+#fotobeneficio{
+    width:50%;
+    height: 280px;
+    border-radius: 4%;
+
+}
+
+#fotobeneficio img{
+    width: 100%;
+    height: 100%;
+    
+}
+#fotos{
+    width:1100px;
+    height: 300px;
+    display: flex;
+    margin: 40px 0px;
+    margin-left: 45px;
+align-items: center;
+justify-content: center;
+
+}
+
+.foto{
+    width: 30%;
+    height: 100%;
+    
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotocartao{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    border-radius: 5%;
+
+}
+/* AREA DA TABELA */
+
+#partebaixo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+#areatabela{
+    width: 1000px;
+    height: 300px;
+    align-items: center;
+    background-color: white;
+    /* border:  1px solid grey;  */
+    border-radius: 5%;
+    border-color: gray;
+    border-right-style: hidden;
+    box-shadow: 10px 10px 10px grey;
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+   
+}
+
+table{
+    margin: 0 auto;
+        border-collapse: collapse;
+    width: 900px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+th {
+    height: 50px;
+    border: none;
+    font-size: 15pt;
+    text-align: center;
+    text-decoration: double;
+    background-color: #ba2d2d;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td{
+    height: 50px;
+    border:  2px solid grey;
+    font-size: 15pt;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+   
+}
+
+th:empty, td:empty{
+    background-color: white;
+    border: none;
+}  
+  
+#animacao{
+    width: 200px;
+    height: 200px;
+    
+     /* animation-name: Mudatudo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;  */
+    /* animation:MudaTudo 5s 1; */
+}  
+
+footer{
+    width: 100%;
+    height: 40px;
+    color:white;
+    background-color: #ba2d2d;
+    text-align: center;
+    line-height: 40px;
+}
+footer p{
+    color:white;
+    background-color: #ba2d2d;
+}
+
+
+
